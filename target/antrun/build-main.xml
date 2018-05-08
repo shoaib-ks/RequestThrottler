@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Using request-throttler.properties</echo>
+  <copy file="request-throttler.properties" tofile="E:\XpDevRepo\CommonTools\request-throttler\trunk/target/request-throttler.properties"/>
+</target>
+</project>
